@@ -3,7 +3,7 @@ from django.http.response import HttpResponse
 
 
 # Create your views here.
-# 这是第二个测试
+# 这是第第三次测试
 def index(request):
     # print("hello world")
     return HttpResponse("hello django 用DJANGO创建的第一个应用")
