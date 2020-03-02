@@ -15,10 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-
+# 导入views包
 from users import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    # 增加路由信息
     path('users/', views.index),
 ]
