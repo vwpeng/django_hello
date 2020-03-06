@@ -6,5 +6,5 @@ from users import views
 urlpatterns = [
     # 增加路由信息
     path('index/', views.index),
-    url('hello/', views.hello),
+    path('hello/', views.hello),
 ]
