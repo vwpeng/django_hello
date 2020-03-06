@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.http.response import HttpResponse
+from django.http import HttpResponse
 
 
 # Create your views here.
@@ -7,3 +7,7 @@ from django.http.response import HttpResponse
 def index(request):
     # print("hello world")
     return HttpResponse("hello django 用DJANGO创建的第一个应用")
+
+
+def hello(request):
+    return HttpResponse('users hello')
